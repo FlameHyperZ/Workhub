@@ -1,0 +1,173 @@
+@import "compass/css3";
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+label
+{
+	color: darkred;
+}
+
+.top
+{
+	width:100%;
+	background:linear-gradient(#A6E0FFFF,#2C1C82FF);
+	padding: 20px;
+	display: flex;
+}
+.top h1
+{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+#searchtxt
+{
+	border-color: black;
+	border-radius: 12px;
+}
+.top h2
+{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+
+#img 
+{	
+
+	padding: 20px;
+	align-items: center;
+}
+#ha
+{
+	-webkit-text-stroke: 0.5px black ;
+	color: #F8A706FF;
+	padding-top: 25px;
+	padding-left: 675px;
+}
+body
+{
+	
+}
+nav
+{
+	flex: 1;
+	text-align: center;
+
+}
+nav:hover
+{
+	background-color: whitesmoke;
+}
+nav ul
+{
+	font-family: 'Poppins', sans-serif;
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li
+{
+	display: inline-block;
+	padding: 15px;
+}
+
+nav ul li:hover
+{
+	background-color: #E53253F7;
+
+}
+a
+{
+	text-decoration: none;
+	color: navy;
+
+}
+a:hover,active
+{
+	color: white;
+}
+.try
+{
+	height: 5px;
+	max-width: 10000px;
+	background-color: navy;
+	
+}
+.home
+{	
+	padding-right: 250px;
+	background-color: navy;
+}
+.searchicon
+{
+
+	padding-left: 150px;
+}
+.main
+{
+	
+	text-align: center;
+}
+
+.searchbtn
+{
+display: flex;
+padding: 5px;
+	background: radial-gradient(white,powderblue);
+	display: inline-block;
+	border-radius: 30px;
+	font-size: 20px;
+	font-family: monospace;
+}
+.fproduct
+{
+	display: inline-block;
+
+}
+
+
+.buy
+{
+	text-decoration: bold;
+	font-family: 'Poppins', sans-serif;
+	border-radius: 25px;
+	background-color: #2A32C2FF;
+	color: white;
+	padding: 8px;
+}
+
+.buy:hover
+{
+	background-color: lightblue;
+	color: black;
+
+}
+.addcart
+{
+	font-family: 'Poppins', sans-serif;
+	border-radius: 25px;
+	align-self: center;
+	background-color:#D7273EFF;
+	padding: 8px;
+	
+}
+
+.addcart:hover
+{
+	background-color: maroon;
+	color: white;
+}
+.f2product
+{
+	background: radial-gradient(#fff,#ffd6d6);
+}
+
+.item
+{
+	padding-top:60px;
+	padding: 40px;
+}
+
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My EShop | E-Commerce Website</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jQuery-3.3.1.min.js"></script>
+  <script>
+       $( document ).ready(function() {
+        $(".searchbtn").click(function() {
+          alert("Search button is clicked Value of Search Text is : " + $("#searchtxt").val() + " Category selected is : " + $("#cars").children(":selected").html());
+        });
+      });
+</script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,300&display=swap" rel="stylesheet">
+<style>
+ input[type=text], select {
+ width: 50%;
+ padding: 10px 16px;
+ margin: 6px 0;
+ display: inline-block;
+ border: 3px solid blue;
+ border-radius: 5px;
+ box-sizing: border-box;
+ border-color: darkred;
+ }
+
+</style>
+	</head>
+<body>
+
+	<div class="top">
+	
+	 <div id="img">
+        <a href="EShop.html"><img src="pics/cart.png" width="100px"><
+        </div>
+     <div id="ha" >
+     <h1>MY E-SHOP</h1>
+     <h2><i>1 Stop Solution for your daily needs!</i></h2>
+     </div>
+
+     <div></div>
+ </div>
+
+	<div class="head">
+
+		<nav>
+		<ul>
+			<li><a href="EShop.html"><b>Home</b></a></li>
+			<li><a href=""><b>Products</b></a></li>
+			<li><label id="cat"><a><b>Category </b><a></label>
+				<select id="cars" style="">
+  <option value="E">Electronics</option>
+  <option value="D">Dress</option>
+  <option value="M">Mobiles</option>
+  <option value="A">Others</option>
+</select></a></li>
+			<li><a href=""><b>Support</b></a></li>
+			<li><a href=""><b>About Us</b></a></li>
+			<li><a href=""><b>Login/SignUp</b></a></li>
+		</ul>		
+		</nav>
+
+
+	</div>
+	
+		<div class="try"></div>
+
+		<div class="main">
+
+			<form action="/action_page.php">
+			<input type="text" id="searchtxt" placeholder="Search for Products....">
+			</form>
+			<button class="searchbtn">Search Product</button>			
+		</div>
+		<br>
+		<h2 style="color: darkred; text-align: center; font-family: 'Poppins', sans-serif; "><u>FEATURED PRODUCTS</u></h2> 
+                
+<div class="fproduct">
+		<div class="i13">
+                        
+                        <a href="https://www.apple.com/shop/buy-mac/macbook-pro/16-inch" ><img src="https://rukminim1.flixcart.com/image/416/416/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70" width="380" height="230"></a>
+                        <h3 style="font-family: 'Poppins', sans-serif;">
+                        APPLE Macbook Pro M1 Pro Chip - Space Grey</h3>
+                        <h4>₹2,59,900/-</h4>
+                        <br>
+                        <button class="buybtn">Buy Now!</button>
+                        <button class="acartbtn">Add to cart</button>
+                    <br>
+                    <br>
+                    <div class="i12">
+                        <a href="https://www.apple.com/shop/buy-iphone/iphone-13"><img src="https://rukminim1.flixcart.com/image/416/416/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=70" width="230" height="300"></a>
+                        <h3 style="font-family: 'Poppins', sans-serif;">Apple iPhone 13 (128GB) - Midnight</h3>
+                        <h4>₹79,900/-</h4>
+                        <br>
+                        <button class="buybtn">Buy Now!</button>
+                        <button class="acartbtn">Add to cart</button>
+                    </div>
+                    <br>
+                    <div class="i11">
+                        <a href="https://www.apple.com/shop/buy-mac/imac-imac"><img src="https://m.media-amazon.com/images/I/71XyLsP7WjL._SL1500_.jpg" width="300" height="300"></a>
+                        <h3 style="font-family: 'Poppins', sans-serif;">Apple iMac (27 inch) - Silver</h3>
+                        <h4>₹1,69,900/-</h4>
+                        <br>
+                        <button class="buybtn">Buy Now!</button>
+                        <button class="acartbtn">Add to cart</button>
+                    </div>
+                </div>
+
+                    <div class="ixr">
+                        <a href="https://www.samsung.com/in/tvs/qled-tv/qn700a-65-inch-neo-qled-8k-smart-tv-qa65qn700akxxl/"><img src="https://images.samsung.com/is/image/samsung/p6pim/in/qa65qn700akxxl/gallery/in-neo-qled-8k-qn700a-qa65qn700akxxl-464369858?$684_547_PNG$" width="400" height="300"></a>
+                        <h3 style="font-family: 'Poppins', sans-serif;">Samsung Neo QLED 8K Smart TV(65 inch)</h3>
+                        <h4>₹3,24,990/-</h4>
+                        <br>
+                        <button class="buybtn">Buy Now!</button>
+                        <button class="acartbtn">Add to cart</button>
+                    
+                     <br><br>
+                    <div class="i13">
+                        
+                        <a href="https://www.amazon.in/Samsung-Phantom-Storage-Additional-Exchange/dp/B08LRCM9LQ/ref=sr_1_1?crid=DCCCO1WB65EE&keywords=samsung+s21+%2B&qid=1639584041&sprefix=samsung+s21%2Caps%2C-1&sr=8-1" ><img src=" https://m.media-amazon.com/images/I/81J0QOSKU-L._SL1500_.jpg" width="240" height="300"></a>
+                        <h3 style="font-family: 'Poppins', sans-serif;">
+                        Samsung S21 Ultra 5G (256GB) - Phantom silver</h3>
+                        <h4>₹1,28,999.00/-</h4>
+                        <br>
+                        <button class="buybtn">Buy Now!</button>
+                        <button class="acartbtn">Add to cart</button>
+                    </div>
+                    <br><br>
+                    <div class="i12">
+                        <a href="https://www.amazon.in/Samsung-Galaxy-Ear-Buds-Black/dp/B08SKDXKZF/ref=sr_1_1?crid=WLKF1734N233&keywords=galaxy+buds+pro&qid=1639584793&sprefix=galaxy+b%2Caps%2C343&sr=8-1"><img src="https://m.media-amazon.com/images/I/51qVl5jDvIL._SL1000_.jpg" width="300" height="300"></a>
+                        <h3 style="font-family: 'Poppins', sans-serif;">Samsung Galaxy Buds Pro - Black</h3>
+                        <h4>₹17,990/-</h4>
+                        <br>
+                        <button class="buybtn">Buy Now!</button>
+                        <button class="acartbtn">Add to cart</button>
+                    </div>
+                    
+                </div>
+	
+	</div>
+
+
+</body>
+</html>
+
+
+

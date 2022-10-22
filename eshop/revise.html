@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+$("#flip").click(function(){
+		$("#panel").slideToggle("fast");
+});
+});
+$(document).ready(function(){
+$("#flip1").click(function(){
+		$("#panel1").slideToggle("fast");
+});
+});
+$(document).ready(function(){
+$("#flip2").click(function(){
+		$("#panel2").slideToggle("fast");
+});
+});
+$(document).ready(function(){
+$("#flip3").click(function(){
+		$("#panel3").slideToggle("fast");
+});
+});
+$(document).ready(function(){
+$("#flip4").click(function(){
+		$("#panel4").slideToggle("fast");
+});
+});
+</script>
+<style>
+#panel, #flip {
+padding: 10px;
+text-align: left;
+background: radial-gradient(#fff,#ffd6d6);
+border: solid 5px purple;
+}
+#panel1, #flip1 {
+padding: 10px;
+text-align: left;
+background: radial-gradient(#fff,#ffd6d6);
+border: solid 5px purple;
+}
+#panel2, #flip2 {
+padding: 10px;
+text-align: left;
+background: radial-gradient(#fff,#ffd6d6);
+border: solid 5px purple;
+}
+#panel3, #flip3 {
+padding: 10px;
+text-align: left;
+background: radial-gradient(#fff,#ffd6d6);
+border: solid 5px purple;
+}
+#panel4, #flip4 {
+padding: 10px;
+text-align: left;
+background: radial-gradient(#fff,#ffd6d6);
+border: solid 5px purple;
+}
+#panel {
+padding: 60px;
+display: none;
+}
+</style>
+</head>
+<body>
+<div>
+<div id="flip">1</div>
+<div id="panel">The panel greets the user with Merry Christmas!</div>
+</div>
+<div>
+<div id="flip1">1</div>
+<div id="panel1">The panel greets the user with Merry Christmas!</div>
+</div>
+<div>
+<div id="flip2">1</div>
+<div id="panel2">The panel greets the user with Merry Christmas!</div>
+</div>
+<div>
+<div id="flip3">1</div>
+<div id="panel3">The panel greets the user with Merry Christmas!</div>
+</div>
+<div>
+<div id="flip4">1</div>
+<div id="panel4">The panel greets the user with Merry Christmas!</div>
+</div>
+</body>
+</html>
